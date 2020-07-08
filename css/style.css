@@ -1502,7 +1502,7 @@ ul.portfolio-image li .desc {
     float: left;
     background-color: #7ab9f8;
     color: #fff;
-    width: 95px;
+    width: 125px;
     border-radius: 10px;
     font-size: 1.2rem;
     display: inline-block;
@@ -1513,13 +1513,31 @@ ul.portfolio-image li .desc {
 .desc_con {
     background-color: #7ab9f8;
     color: #fff;
-    width: 95px;
+    width: 125px;
     border-radius: 10px;
     font-size: 1.2rem;
     display: inline-block;
     text-align: center;
     padding: 0 !important;
 
+}
+
+
+.web_box{
+    width: 30%;
+    display: inline-block;
+    color: #fff;
+}
+.web_box:nth-child(2) {
+    margin-left: 25px;
+}
+.web_box:nth-child(3) {
+    margin-left: 45px;
+}
+
+.web_box a {
+/*    width: 100%*/
+    color: #fff
 }
 
 .desc_box {
@@ -1613,20 +1631,6 @@ ul.portfolio-image li .desc {
     color: #4d4d4d;
 }
 
-.web_box{
-    width: 30%;
-    display: inline-block;
-    margin-left: 20px;
-    color: #fff;
-}
-.web_box:nth-child(3) {
-    margin-left: 36px;
-}
-
-.web_box a {
-/*    width: 100%*/
-    color: #fff
-}
 
 /*반응형*/
 
