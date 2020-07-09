@@ -1498,6 +1498,10 @@ ul.portfolio-image li .desc {
 
 
 /* 추가 */
+.visual {
+    margin-top: 200px;
+}
+
 .desc_web {
     float: left;
     background-color: #7ab9f8;
@@ -1638,6 +1642,9 @@ ul.portfolio-image li .desc {
     .web_box:nth-child(3) {
     margin-left: 20px;
         margin-top: 10px
+}
+    .visual {
+    margin-top: 0;
 }
 
     .all {
