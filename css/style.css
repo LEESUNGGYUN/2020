@@ -1710,24 +1710,28 @@ ul.portfolio-image li .desc {
 .desc_web {
     background-color: #7ab9f8;
     color: #fff;
-    width: 100px;
+    width: 140px;
     border-radius: 10px;
     font-size: 1.2rem;
     display: inline-block;
     margin-top: 260px;
     text-align: center;
-    margin-left: 30px;
 }
+    
+  
     .desc_con {
     background-color: #7ab9f8;
     color: #fff;
-    width: 100px;
     border-radius: 10px;
     font-size: 1.2rem;
     display: inline-block;
     text-align: center;
-    width: 100px !important;
+    width: 150px !important;
     margin-top: 260px;
+}
+    .web_box:nth-child(2) {
+    margin-left: 0;
+        margin-top: 10px
 }
     .white-bg {
     background: #ffffff;
